@@ -1,0 +1,97 @@
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import myImg from "../../Assets/avatar.svg";
+import Tilt from "react-parallax-tilt";
+import {
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiFillInstagram,
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+
+function Home2() {
+  return (
+    <Container fluid className="home-about-section" id="about">
+      <Container>
+        <Row>
+          <Col md={8} className="home-about-description">
+            <h1 style={{ fontSize: "2.6em" }}>
+              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+            </h1>
+            <p className="home-about-body">
+              I'm a passionate web developer with a strong focus on modern
+              JavaScript technologies. I specialize in building scalable, fast,
+              and user-friendly web applications using React.js, Next.js,
+              JavaScript, and TypeScript.
+              <br />
+              <br />
+              I enjoy crafting intuitive user interfaces and developing
+              full-featured products that solve real-world problems. My work
+              reflects a deep interest in web technologies, modern frameworks
+              <br />I am fluent in classics like
+              <i>
+                <b className="purple">
+                  {" "}
+                  Javascript, Typescript, React.js and Next.js
+                </b>
+              </i>
+              ,
+              <br />
+              <br />
+              <br />
+              Whenever possible, I love experimenting with{" "}
+              <b className="purple">Python</b> and
+              <i>
+                <b className="purple">
+                  {" "}
+                  integrating APIs and AI tools to bring products to life.
+                </b>
+              </i>
+              &nbsp; like
+              <i>
+                <b className="purple"> OpenAi and Ollama</b>
+              </i>
+            </p>
+          </Col>
+          <Col md={4} className="myAvtar">
+            <Tilt>
+              <img src={myImg} className="img-fluid" alt="avatar" />
+            </Tilt>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={12} className="home-about-social">
+            <h1>FIND ME ON</h1>
+            <p>
+              Feel free to <span className="purple">connect </span>with me
+            </p>
+            <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                  href="https://github.com/HoriaManea"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/horia-manea-503bba252/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+            </ul>
+          </Col>
+        </Row>
+      </Container>
+    </Container>
+  );
+}
+export default Home2;
