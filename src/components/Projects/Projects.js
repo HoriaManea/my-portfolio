@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import oasis from "../../Assets/Projects/oasis-app.png";
 import restaurant from "../../Assets/Projects/reastaurant.png";
+import wordWise from "../../Assets/Projects/wordwise.png";
 
 function Projects() {
   return (
@@ -34,6 +35,16 @@ function Projects() {
               title="Pizza Restaurant"
               description="A modern application for a pizza restaurant, built with React, Redux Toolkit, and Tailwind CSS. The app allows users to browse the menu, add items to the cart, place orders, and manage the entire ordering process in an intuitive and fast way. It also includes smooth animations and responsive design to ensure a seamless experience across all devices."
               ghLink="https://github.com/HoriaManea/Restaurant-React-Project"
+              demoLink="/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={wordWise}
+              isBlog={false}
+              title="WordWise"
+              description="WorldWise is a modern web application built with React.js and Redux, designed for travel enthusiasts who want to preserve the memories of their adventurous lives. The app provides an interactive and intuitive experience, allowing users to mark all the cities they've visited on a map and create a visual journal of their journeys."
+              ghLink="https://github.com/HoriaManea/WordWise-App"
               demoLink="/"
             />
           </Col>
