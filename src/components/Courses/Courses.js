@@ -155,6 +155,7 @@ function Courses() {
               isBlog={false}
               title={""}
               description=""
+              ghLink="https://github.com/HoriaManea/codewars-exercises"
               demoLink="https://www.codewars.com/users/HoriaHoria"
             />
           </Col>
