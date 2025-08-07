@@ -147,24 +147,13 @@ function Courses() {
           </h1>
           <p style={{ color: "white" }}>
             I regularly solve coding challenges to sharpen my problem-solving
-            skills and stay sharp. Check out my progress on{" "}
-            <a
-              href="https://www.codewars.com/users/NUMELE_TAU"
-              target="_blank"
-              rel="noreferrer"
-              style={{ color: "#c778dd" }}
-            >
-              Codewars
-            </a>
-            .
+            skills and stay sharp.
           </p>
           <Col md={4} className="project-card">
             <Codewars
               imgPath={codewars}
               isBlog={false}
-              title={
-                "Beginning ReactJS Foundations Building User Interfaces with ReactJS"
-              }
+              title={""}
               description=""
               demoLink="https://www.codewars.com/users/HoriaHoria"
             />
