@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/1751530956719.jpeg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -38,7 +38,6 @@ function Home2() {
               ,
               <br />
               <br />
-              <br />
               Whenever possible, I love experimenting with{" "}
               <b className="purple">Python</b> and
               <i>
@@ -55,7 +54,17 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img
+                src={myImg}
+                className="img-fluid"
+                alt="avatar"
+                style={{
+                  borderRadius: "50%",
+                  width: "100%",
+                  height: "auto",
+                  objectFit: "cover",
+                }}
+              />
             </Tilt>
           </Col>
         </Row>
@@ -71,7 +80,7 @@ function Home2() {
                   href="https://github.com/HoriaManea"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
@@ -82,7 +91,7 @@ function Home2() {
                   href="https://www.linkedin.com/in/horia-manea-503bba252/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -94,4 +103,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
