@@ -19,7 +19,6 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home2 from "./components/Home/Home2";
-import CustomCursor from "./components/CustomCursor/CustomCursor";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -36,7 +35,6 @@ function App() {
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
-        <CustomCursor />
         <Navbar />
         <ScrollToTop />
         <Routes>
