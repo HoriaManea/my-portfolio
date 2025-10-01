@@ -19,37 +19,25 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I'm a passionate web developer with a strong focus on modern
-              JavaScript technologies. I specialize in building scalable, fast,
-              and user-friendly web applications using React.js, Next.js,
-              JavaScript, and TypeScript.
+              🚀 I’m a passionate Frontend Developer focused on delivering
+              clean, responsive, and scalable web interfaces.
               <br />
               <br />
-              I enjoy crafting intuitive user interfaces and developing
-              full-featured products that solve real-world problems. My work
-              reflects a deep interest in web technologies, modern frameworks
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple">
-                  {" "}
-                  Javascript, Typescript, React.js and Next.js
-                </b>
-              </i>
-              ,
+              💻 I specialize in React.js, Next.js, TypeScript and modern
+              styling approaches such as CSS, CSS Modules, SCSS, Styled
+              Components, Tailwind CSS, along with UI libraries like shadcn/ui
+              and Material UI.
               <br />
               <br />
-              Whenever possible, I love experimenting with{" "}
-              <b className="purple">Python</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  integrating APIs and AI tools to bring products to life.
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> OpenAi and Ollama</b>
-              </i>
+              ⚡ I am also skilled in modern build and testing tools including
+              Vite, Webpack, Jest, React Testing Library and Husky, ensuring
+              efficient workflows, reliable testing and high-quality code.
+              <br />
+              <br />
+              🔧 In addition, I have experience integrating AI tools and APIs
+              such as Ollama and OpenRouter to build intelligent, next-gen web
+              applications, giving me a unique edge in projects that require
+              smart and dynamic user experiences.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

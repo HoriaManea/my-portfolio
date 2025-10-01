@@ -8,18 +8,21 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Horia Manea </span>
-            from <span className="purple"> Brașov, Romania.</span>
+            Hi Everyone, I am <span className="purple">Horia Manea</span>
+            from <span className="purple">Brașov, Romania.</span>
             <br />
             I am currently working as a Junior Frontend Developer at a
             cybersecurity company based in Vienna, Austria.
             <br />
+            <br />
             I graduated with a Bachelor's degree in Engineering from
-            Transilvania University of Brașov.
+            Transilvania University of Brașov and I am currently pursuing a
+            Master's degree in Software Engineering.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
+
           <ul>
             <li className="about-activity">
               <ImPointRight /> Sports
