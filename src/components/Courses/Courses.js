@@ -16,6 +16,10 @@ import bookOne from "../../Assets/Books/js-book.png";
 import bookTwo from "../../Assets/Books/linuxbook.png";
 import bookThree from "../../Assets/Books/react-book.png";
 import codewars from "../../Assets/Books/codewars.png";
+import next from "../../Assets/Courses/next.jpg";
+import jest from "../../Assets/Courses/jest.PNG";
+import vite1 from "../../Assets/Courses/vite1.PNG";
+import vite2 from "../../Assets/Courses/vite2.PNG";
 
 function Courses() {
   return (
@@ -32,11 +36,20 @@ function Courses() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <CourseCard
-              imgPath={reactCourseOne}
+              imgPath={jest}
               isBlog={false}
-              title="React - The Complete Guide 2025 (incl. Next.js, Redux)"
+              title="Modern React Testing: Jest, React Testing Library, User-Event, and Lint-Staged"
               description=""
-              demoLink="https://www.udemy.com/course/react-the-complete-guide-incl-redux/"
+              demoLink="https://www.youtube.com/watch?v=T2sv8jXoP4s&list=PLC3y8-rFHvwirqe1KHFCHJ0RqNuN61SJd"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <CourseCard
+              imgPath={next}
+              isBlog={false}
+              title="Next.js 15 Tutorial Advanced"
+              description=""
+              demoLink="https://www.youtube.com/watch?v=b4ba60j_4o8&list=PLC3y8-rFHvwhIEc4I4YsRz5C7GOBnxSJY"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -46,6 +59,16 @@ function Courses() {
               title="The Ultimate React Course 2025: React, Next.js, Redux & More"
               description=""
               demoLink="https://www.udemy.com/course/the-ultimate-react-course/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <CourseCard
+              imgPath={vite1}
+              isBlog={false}
+              title="⚡️ Vite - Modern JavaScript Bundler"
+              description=""
+              demoLink="https://www.youtube.com/watch?v=9oqu9134U8Q&t=13532s"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -68,11 +91,20 @@ function Courses() {
           </Col>
           <Col md={4} className="project-card">
             <CourseCard
-              imgPath={advanceJsCourseTwo}
+              imgPath={reactCourseOne}
               isBlog={false}
-              title="JavaScript Full Course for free 🌐 (2024)"
+              title="React - The Complete Guide 2025 (incl. Next.js, Redux)"
               description=""
-              demoLink="https://www.youtube.com/watch?v=lfmg-EJ8gm4"
+              demoLink="https://www.udemy.com/course/react-the-complete-guide-incl-redux/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <CourseCard
+              imgPath={vite2}
+              isBlog={false}
+              title="Learn Vite – Frontend Build Tool Course"
+              description=""
+              demoLink="https://www.youtube.com/watch?v=VAeRhmpcWEQ&t=5330s"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -82,6 +114,15 @@ function Courses() {
               title="Advanced Javascript Concepts From Dave Gray - Google Software Enginner"
               description=""
               demoLink="https://www.youtube.com/watch?v=1S8SBDhA7HA&list=PL0Zuz27SZ-6N3bG4YZhkrCL3ZmDcLTuGd"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <CourseCard
+              imgPath={advanceJsCourseTwo}
+              isBlog={false}
+              title="JavaScript Full Course for free 🌐 (2024)"
+              description=""
+              demoLink="https://www.youtube.com/watch?v=lfmg-EJ8gm4"
             />
           </Col>
           <Col md={4} className="project-card">
