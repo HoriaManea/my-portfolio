@@ -20,6 +20,8 @@ import next from "../../Assets/Courses/next.jpg";
 import jest from "../../Assets/Courses/jest.PNG";
 import vite1 from "../../Assets/Courses/vite1.PNG";
 import vite2 from "../../Assets/Courses/vite2.PNG";
+import docker from "../../Assets/Courses/dockerimg.png";
+import cicd from "../../Assets/Courses/cicd.png";
 
 function Courses() {
   return (
@@ -89,6 +91,27 @@ function Courses() {
               demoLink="https://www.udemy.com/course/the-complete-javascript-course/?couponCode=MT40825"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <CourseCard
+              imgPath={docker}
+              isBlog={false}
+              title="Docker & Kubernetes: The Practical Guide [2025 Edition]"
+              description=""
+              demoLink="https://www.udemy.com/course/docker-kubernetes-the-practical-guide/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <CourseCard
+              imgPath={cicd}
+              isBlog={false}
+              title="GitLab CI/CD: Pipelines, CI/CD and DevOps for Beginners"
+              description=""
+              demoLink="https://www.udemy.com/course/gitlab-ci-pipelines-ci-cd-and-devops-for-beginners/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <CourseCard
               imgPath={reactCourseOne}
